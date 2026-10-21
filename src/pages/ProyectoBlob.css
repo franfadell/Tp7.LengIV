@@ -1,0 +1,72 @@
+.blob-panel {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.blob-panel textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.blob-botones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.blob-botones button {
+  flex: 1;
+  min-width: 130px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #1f2a44;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.blob-botones button:hover {
+  background-color: #3b4a73;
+}
+
+.blob-rango {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.blob-rango input {
+  width: 80px;
+  padding: 6px;
+  font-size: 15px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.blob-salida {
+  min-height: 64px;
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-left: 4px solid #ccc;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.blob-salida.blob-exito {
+  border-left-color: #1a7f37;
+}
+
+.blob-salida.blob-error {
+  border-left-color: #c62828;
+  color: #c62828;
+}

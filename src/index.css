@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  min-height: 70vh;
+  scroll-margin-top: 60px;
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #1f2a44;
+}
+
+section p,
+section li {
+  line-height: 1.6;
+}
+
+section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
