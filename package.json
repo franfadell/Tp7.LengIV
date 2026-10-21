@@ -2,15 +2,21 @@
   "name": "lenguajes-iv",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://github.com/franfadell/Tp7.LengIV",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
